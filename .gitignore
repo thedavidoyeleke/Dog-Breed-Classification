@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Google Drive & Colab specific
+# These paths are relative to the current working directory (project_path)
+
+# My saved model files
+models/
+
+# My prediction CSV files
+*.csv
+
+# Raw data and test directories
+dog-breed-identification.zip
+labels.csv
+sample_submission.csv
+train/
+test/
+
+# Log files
+logs/
+my-dog-photos/
